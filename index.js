@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 // Initialize Express App
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // MongoDB Connection URI
 const DB_URI = 'mongodb+srv://sukhbirmundlia:sachin123@cluster0.3b0qq.mongodb.net/testing';
