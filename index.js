@@ -29,7 +29,8 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model("backnew", userSchema);
 app.get("/", (req, res) => {
-    res.json({ message: "Welcome to the Root API!" });
+   
+    res.send("Welcome to the sachin's world");
 });
 
 app.post("/data", async (req, res) => {
